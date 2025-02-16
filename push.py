@@ -14,4 +14,4 @@ def send_to_wechat(message):
 
 # 示例：推送程序运行结果
 result = "程序运行成功！数据：12345"
-send_to_wechat(result)
+##send_to_wechat(result)
