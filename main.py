@@ -1,6 +1,6 @@
 import requests
 from random import randint
-import push
+import push ,os
 
 # 定义请求的URL
 url = "http://yanwan.store/run4/mi20241027.php"
@@ -18,7 +18,7 @@ headers = {
     "Connection": "keep-alive",
     "Referer": "http://bs.yanwan.store/"
 }
-MY_API_KEY=os.environ.get("MY_API_KEY")
+##MY_API_KEY=os.environ.get("MY_API_KEY")
 user=os.environ.get("MY_ACCOUNT")
 password=os.environ.get("MY_PASSWORD")
 
