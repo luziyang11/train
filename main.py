@@ -1,5 +1,6 @@
 import requests
 from random import randint
+import push
 
 # 定义请求的URL
 url = "http://yanwan.store/run4/mi20241027.php"
@@ -32,3 +33,4 @@ response = requests.post(url, headers=headers, data=data)
 # 输出响应内容
 print(response.status_code)
 print(response.json())
+push.send_to_wechat(response.json())
