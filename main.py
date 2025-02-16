@@ -32,8 +32,8 @@ data = {
 
 # 发送POST请求
 response = requests.post(url, headers=headers, data=data)
-
+print(data)
 # 输出响应内容
 print(response.status_code)
 print(response.json())
-push.send_to_wechat(response.json())
+#push.send_to_wechat(response.json())
