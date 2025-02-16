@@ -1,5 +1,5 @@
 import requests
-MY_API_KEY=os.environ.get("MY_API_KEY")
+MY_API_KEY="SCT171556TUitezllQAZBQWUhyDWRIY9RK"
 def send_to_wechat(message):
     url = f"https://sctapi.ftqq.com/{MY_API_KEY}.send"
     data = {
