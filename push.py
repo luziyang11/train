@@ -1,4 +1,4 @@
-import requests
+import requests,os
 MY_API_KEY=os.environ.get("MY_API_KEY")
 #MY_API_KEY="SCT171556TUitezllQAZBQWUhyDWRIY9RK"
 def send_to_wechat(message):
