@@ -20,7 +20,7 @@ headers = {
 }
 ##MY_API_KEY=os.environ.get("MY_API_KEY")
 user=os.environ.get("MY_ACCOUNT")
-password==os.environ.get("MY_PASSWORD")
+password=os.environ.get("MY_PASSWORD")
 #user="laoeluziyang@163.com"
 #password="asd123456!"
 
