@@ -19,10 +19,10 @@ headers = {
     "Referer": "http://bs.yanwan.store/"
 }
 ##MY_API_KEY=os.environ.get("MY_API_KEY")
-##user=os.environ.get("MY_ACCOUNT")
-##password==os.environ.get("MY_PASSWORD")
-user="laoeluziyang@163.com"
-password="asd123456!"
+user=os.environ.get("MY_ACCOUNT")
+password==os.environ.get("MY_PASSWORD")
+#user="laoeluziyang@163.com"
+#password="asd123456!"
 
 # 定义请求体
 step = str(14000+randint(0, 4000))
@@ -38,4 +38,4 @@ print(data)
 # 输出响应内容
 print(response.status_code)
 print(str(response.json()))
-push.send_to_wechat(str(response.json()))
+#push.send_to_wechat(str(response.json()))
