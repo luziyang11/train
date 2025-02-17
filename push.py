@@ -1,5 +1,6 @@
 import requests
-MY_API_KEY="SCT171556TUitezllQAZBQWUhyDWRIY9RK"
+MY_API_KEY=os.environ.get("MY_API_KEY")
+#MY_API_KEY="SCT171556TUitezllQAZBQWUhyDWRIY9RK"
 def send_to_wechat(message):
     url = f"https://sctapi.ftqq.com/{MY_API_KEY}.send"
     data = {
@@ -13,5 +14,5 @@ def send_to_wechat(message):
         print("消息推送失败！")
 
 # 示例：推送程序运行结果
-result = "程序运行成功！数据：12345"
+#result = "程序运行成功！数据：12345"
 ##send_to_wechat(result)
