@@ -38,4 +38,4 @@ print(data)
 # 输出响应内容
 print(response.status_code)
 print(str(response.json()))
-push.send_to_wechat(str(response.json()),step)
+push.send_to_wechat(response.json(),step)
