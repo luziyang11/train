@@ -25,7 +25,7 @@ password=os.environ.get("MY_PASSWORD")
 #password="asd123456!"
 
 # 定义请求体
-step = str(14000+randint(0, 4000))
+step = str(16000+randint(0, 3000))
 data = {
     "user": user,
     "password": password,
