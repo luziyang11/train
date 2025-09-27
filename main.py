@@ -19,10 +19,10 @@ headers = {
     "Referer": "http://bs.yanwan.store/"
 }
 ##MY_API_KEY=os.environ.get("MY_API_KEY")
-user=os.environ.get("MY_ACCOUNT")
-password=os.environ.get("MY_PASSWORD")
-#user="laoeluziyang@163.com"
-#password="asd123456!"
+#user=os.environ.get("MY_ACCOUNT")
+#password=os.environ.get("MY_PASSWORD")
+user="laoeluziyang%40163.com"
+password="asd123456!"
 
 # 定义请求体
 step = str(16000+randint(0, 3000))
