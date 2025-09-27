@@ -3,7 +3,7 @@ from random import randint
 import push ,os
 
 # 定义请求的URL
-url = "http://yanwan.store/run4/mi20241027.php"
+url = "http://yanwan.store/run4/mi20241029.php"
 
 # 定义请求头
 headers = {
