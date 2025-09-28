@@ -7,16 +7,16 @@ url = "http://yanwan.store/run4/mi20241029.php"
 
 # 定义请求头
 headers = {
-    "Host": "yanwan.store",
+    "Host": "bs.yanwan.store",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0",
     "Accept": "*/*",
     "Accept-Language": "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
     "Accept-Encoding": "gzip, deflate",
     "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
     "Content-Length": "52",
-    "Origin": "http://bs.yanwan.store",
+    "Origin": "https://bs.yanwan.store",
     "Connection": "keep-alive",
-    "Referer": "http://bs.yanwan.store/"
+    "Referer": "https://bs.yanwan.store/"
 }
 ##MY_API_KEY=os.environ.get("MY_API_KEY")
 #user=os.environ.get("MY_ACCOUNT")
