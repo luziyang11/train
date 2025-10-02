@@ -12,7 +12,7 @@ def generate_token():
     year = now.year
     month = now.month  # Python 的月份是 1-12，不需要 +1
     day = now.day
-    hour = now.hour
+    hour = now.hour+8
     minute = now.minute
 
     token = (year * (month + day)) + (day * hour * minute)
