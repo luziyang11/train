@@ -1,10 +1,10 @@
 import requests,os
 MY_API_KEY=os.environ.get("MY_API_KEY")
 #MY_API_KEY="SCT171556TUitezllQAZBQWUhyDWRIY9RK"
-def send_to_wechat(message,msg):
+def send_to_wechat(message):
     url = f"https://sctapi.ftqq.com/{MY_API_KEY}.send"
     data = {
-        "title": "Github_微信运动步数："+msg,  # 消息标题
+        "title": "Github_微信运动步数："+message,  # 消息标题
         "desp": message          # 消息内容（支持 Markdown）
     }
     response = requests.post(url, data=data)
