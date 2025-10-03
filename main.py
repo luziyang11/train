@@ -1,8 +1,23 @@
 import requests
 from random import randint
-import push ,os
+import os
 import datetime
 
+MY_API_KEY="SCT171556TUitezllQAZBQWUhyDWRIY9RK"
+def send_to_wechat(message):
+   # print(message)
+    url = f"https://sctapi.ftqq.com/{MY_API_KEY}.send"
+    data = {
+        "title": "Github_微信运动步数："+message,  # 消息标题
+        "desp": message          # 消息内容（支持 Markdown）
+    }
+   # print(data)
+    response = requests.post(url, data=data)
+    if response.status_code == 200:
+        print("消息推送成功！")
+    else:
+        print("消息推送失败！")
+        
 def generate_token():
     """
     生成基于当前时间的 token，计算方式：
