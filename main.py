@@ -20,7 +20,7 @@ def generate_token():
     return str(token)
 
 # 定义请求的URL
-url = "https://bs.yanwan.store/run4/mi20241029.php"
+url = "https://bs.yanwan.store/run4/mi20251001.php"
 
 # 定义请求头
 headers = {
