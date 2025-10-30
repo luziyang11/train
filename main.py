@@ -42,7 +42,7 @@ user="laoeluziyang@163.com"
 password="asd123456!"
 
 # 定义请求体
-step = str(16500+randint(0, 3000))
+step = str(randint(16500, 19800))
 data = {
     "user": user,
     "password": password,
